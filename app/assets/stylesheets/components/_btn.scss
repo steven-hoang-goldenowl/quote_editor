@@ -1,8 +1,8 @@
 .btn {
   // All the previous code
 
-  border-radius: 4px;
-  padding: 10px;
+  border-radius: var(--border-radius);
+  padding: var(--space-xs);
 
   &--primary {
     color: var(--color-white);
